@@ -1,0 +1,32 @@
+#navbar{
+    display:flex;
+    position:fixed;
+    top:0;
+    left:0; 
+     
+
+
+}
+
+#navbar ul{
+    list-style: none;
+    display:flex;
+    margin:1rem; 
+       
+        
+}
+
+#navbar ul li{
+        padding:1rem;
+   
+    
+
+}
+
+#navbar img{
+
+   width:7rem ;
+   height:5rem ;
+   align-content: center
+   
+}
