@@ -1,22 +1,17 @@
 
-import NavBar from './components/NavBar.jsx'
-import ItemListContainer from './components/ItemListContainer.jsx'
+import NavBar from './components/navBar/NavBar.jsx'
+import ItemListContainer from './components/Item/ItemListContainer.jsx'
 import './App.css'
 
-function App() {
- 
-  return (
-    <>
+function App() { 
+  return ( <>
       <div>
 
-      <NavBar/>           
-      
-      <ItemListContainer saludo="Bienvenidos a esta app de juegos"/>
-
-      </div>     
-      
-      
-    </>
+        <NavBar/>
+          
+        <ItemListContainer saludo="Bienvenidos a esta app de juegos"/>  
+                          
+       </div> </>
   )
 }
 

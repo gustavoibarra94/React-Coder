@@ -1,0 +1,14 @@
+#contador {
+    display: flex;
+    align-items: center;
+  }
+  
+  #numeroDelContador {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  #botonSumarACarrito {
+    margin-top: 1rem; 
+    width: 100%;
+  }
