@@ -1,8 +1,10 @@
+
 import ItemCount from '../../count/ItemCount.jsx'
+
 
 const ItemDetail =(({producto})=>{
     return(
-        <div>
+        <div className="detalle">
             <p>{producto.nombre}</p>
             <img src={producto.imagen} alt={producto.nombre}/>
             <p>{producto.descripción}</p>

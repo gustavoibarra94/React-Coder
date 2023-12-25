@@ -12,18 +12,14 @@ function App() {
           <NavBar/>
 
           <Routes>
-            <Route path="/"element={<ItemListContainer saludo="Bienvenidos a esta app de juegos"/> }/>
-            <Route path="/catgorias/categoria" element={<ItemListContainer saludo="Bienvenidos a esta app de juegos"/>}/>
-            <Route path="/verDetalle/:id" element={<ItemDetailContainer/>}/>
+            <Route path="/"element={<ItemListContainer saludo="Bienvenidos"/> }/>
+            <Route path="/categoria/:categoria" element={<ItemListContainer saludo="Bienvenidos"/>}/>
+            <Route path="/detalle/:id" element={<ItemDetailContainer/>}/>
             
-
-
-
+            
           </Routes>
           
-          
-      
-      </BrowserRouter>
+       </BrowserRouter>
       
      
 

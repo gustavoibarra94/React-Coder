@@ -7,6 +7,7 @@ const productos=
         imagen: "../public/img/retoCreativo.png",
         stock:5,
         precio:10000,
+        categoria:"partygame"
 
     },
     {
@@ -16,6 +17,7 @@ const productos=
         imagen: "../public/img/exploradoresDelEspacio.png",
         stock:10,
         precio:20000,
+        categoria:"partygame"
 
     },
     {
@@ -25,6 +27,7 @@ const productos=
         imagen: "../public/img/laberintoDeEspejos.png",
         stock:20,
         precio:40000,
+        categoria:"partygame"
 
     },
     {
@@ -34,6 +37,7 @@ const productos=
         imagen: "../public/img/viajeEnElTiempo.png",
         stock:10,
         precio:25000,
+        categoria:"hasta12"
 
     },
     {
@@ -43,6 +47,7 @@ const productos=
         imagen: "../public/img/granjaFantastica.png",
         stock:5,
         precio:30000,
+        categoria:"hasta12"
 
     },
     {
@@ -52,6 +57,7 @@ const productos=
         imagen: "../public/img/elTesoroSubmarino.png",
         stock:15,
         precio:40000,
+        categoria:"hasta12"
 
     },
 ]

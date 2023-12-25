@@ -1,20 +1,24 @@
+import { Link } from "react-router-dom"
 import "./navbar.css"
 import CartWidget from "./CartWidget"
 
 const NavBar = ()=> {
     return( 
         <div id="navbar">
-            <img src= "/public/img/logo.png" alt="Logo de Marca"/>
+            <Link to="/">
+                <img src= "/public/img/logo.png" alt="Logo de Marca"/>
+            </Link>
+
             <ul>
                     <li>
-                        <a href="">Inicio</a>
-                     </li>
+                        <Link to="/">Inicio</Link>
+                    </li>
                     <li>
-                        <a href="">Categoria</a>
+                        <Link to="/categoria/partygame">Party Game</Link>
                     </li>
                                
                     <li>
-                        <a href="">Sobre nosotros</a>
+                        <Link to="/categoria/hasta12">Hasta 12 años</Link>
                     </li>
             </ul>
             <CartWidget/>
