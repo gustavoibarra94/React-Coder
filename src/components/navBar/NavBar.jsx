@@ -10,14 +10,9 @@ const NavBar = ()=> {
                         <a href="">Inicio</a>
                      </li>
                     <li>
-                        <a href="">Juegos de estrategia</a>
+                        <a href="">Categoria</a>
                     </li>
-                    <li>
-                        <a href="">Party Games</a>
-                    </li>
-                    <li>
-                        <a href="">Juego cooperativo</a>
-                    </li>
+                               
                     <li>
                         <a href="">Sobre nosotros</a>
                     </li>
