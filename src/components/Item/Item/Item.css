@@ -8,6 +8,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   font-size:medium;
+  font-weight: bold;
   
 }
 
@@ -22,13 +23,14 @@
 
 .precio{
 
-  font-weight: bold;
-  font-size: x-large;
+  font-size: large;
   text-align:center;
+  font-weight: lighter;
 }
 
 .boton{
+width: 100%;
 background-color: rgb(43, 84, 142);
-color: #ccc;
+color: #fff;
 justify-content: flex-end;
 }

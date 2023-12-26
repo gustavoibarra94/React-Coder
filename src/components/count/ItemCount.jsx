@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./ItemCount.css"
 
 const ItemCount = (props) => {
-    const { stock } = props;
+    const { stock, AgregarAlCarrito } = props;
     const [contador, setContador] = useState(1);
 
     const suma = () => {
@@ -14,14 +14,14 @@ const ItemCount = (props) => {
   };
 
   return (
-    <div id="compra">  
-        <div id="contador">
+    <div className="compra">  
+        <div className="contador">
             <button onClick={suma}> + </button>
-            <p id="numeroDelContador">{contador}</p>
+            <p className="numeroDelContador">{contador}</p>
             <button onClick={restar}> - </button>
          </div>    
         
-         <button id="botonSumarACarrito">Añadir al carrito</button>
+         <button onClick={()=> AgregarAlCarrito(contador)} className="botonSumarACarrito">Añadir al carrito</button>
      </div>
    
   );

@@ -1,0 +1,42 @@
+.detalle {
+    display: flex;
+    align-items:center;
+    margin-top: 50px;
+  }
+
+  .infoProducto {
+    margin-right: 10rem;
+
+  }
+  
+  .detalle img {
+    width: 500px;
+    max-width: 100%;
+    margin-right: 20px; /* Ajusta el margen según tus preferencias */
+  }
+  
+ 
+.detalle .nombre-precio {
+  font-size: xx-large;
+  font-weight:bold ;
+
+}
+.detalle .descripción{
+    width: 500px;
+    max-width: 100%;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.botonTerminar {
+  margin-top: 1rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    background-color: rgb(43, 84, 142);
+    color: #fff;
+    justify-content: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}

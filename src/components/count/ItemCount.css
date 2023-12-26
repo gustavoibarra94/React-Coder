@@ -1,14 +1,32 @@
-#contador {
+
+
+.contador {
     display: flex;
     align-items: center;
+
+
+  }
+
+  .contador button{
+    padding-right:5rem;
+    padding-left:5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: large;
   }
   
-  #numeroDelContador {
-    margin-left: 2rem;
-    margin-right: 2rem;
+ .numeroDelContador {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-weight: bold;
   }
   
-  #botonSumarACarrito {
+  .botonSumarACarrito {
     margin-top: 1rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 100%;
+    background-color: rgb(43, 84, 142);
+    color: #fff;
+    justify-content: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
