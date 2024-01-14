@@ -10,7 +10,7 @@ const NavBar = ()=> {
             </Link>
             <ul>
                 <li>
-                    <Link to="/">Inicio</Link>
+                    <Link to="/">Ver Todo</Link>
                 </li>
                 <li>
                     <Link to="/categoria/partygame">Party Game</Link>

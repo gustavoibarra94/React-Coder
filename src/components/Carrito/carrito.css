@@ -1,0 +1,50 @@
+
+.lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+
+.lista li {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+  }
+
+  
+  .imagencarrito {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .botoncarrito{
+    margin-top: 1rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    justify-content: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .botoncarrito:hover{
+    background-color: rgb(43, 84, 142);
+    color: #fff;
+  }
+
+  .botoncompra {
+    
+    background-color: rgb(43, 84, 142);
+    color: #fff;
+    margin-top: 1rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    justify-content: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

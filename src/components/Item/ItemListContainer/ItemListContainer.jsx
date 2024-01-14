@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react"
 import {useParams} from "react-router-dom"
 import obtenerProductos from '../../utilidades/Data';
 import ItemList from "../ItemList/ItemList";
-import './ItemListcontainer.css'
 
 
 const ItemListContainer = ({ saludo }) => {
