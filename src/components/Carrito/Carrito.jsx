@@ -1,9 +1,19 @@
 import { useContext } from "react";
 import { CartContext } from "../../context/cartContext";
 import '../../components/Carrito/carrito.css'
+import { Link } from "react-router-dom";
 
 const Carrito = ()=>{
-    const {carrito, borrarCarrito, borrarProducto} = useContext (CartContext)
+    const {carrito, borrarCarrito, borrarProducto,totalPrecio} = useContext (CartContext)
+
+    if (carrito.length === 0 ){
+        return (
+            <div>
+               <h2>Ooops! No hay productos en el carrito😅</h2>
+               <Link to="/">Volver al Home</Link>
+            </div>
+        )
+    }
     return(
         <div className="carrito">
             <ul className="lista">
@@ -17,9 +27,9 @@ const Carrito = ()=>{
                     </li>
                 ))} 
             </ul> 
-
-            <button className="botoncarrito" onClick={borrarCarrito}> Eliminar Carrito</button>      
+            <h2>Total ${totalPrecio()}</h2>                  
             <button className="botoncompra"> Finalizar Compra</button> 
+            <button className="botoncarrito" onClick={borrarCarrito}> Eliminar Carrito</button>
         </div>
 
     )

@@ -39,12 +39,16 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 100%;
-    background-color: rgb(43, 84, 142);
-    color: #fff;
     justify-content: flex-end;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:rgb(43, 84, 142);
 
 
+}
+
+.botonTerminar:hover{
+  background-color: rgb(43, 84, 142);
+  color: #fff;
 }
 
 .botonSeguirComprando {
