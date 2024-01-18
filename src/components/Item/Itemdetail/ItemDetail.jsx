@@ -24,13 +24,13 @@ const ItemDetail =(({producto})=>{
                 <img src={producto.imagen} alt={producto.nombre}/>                
             </div> 
             <div className="infoCarrito">
-            <p className="descripción">{producto.descripción}</p>
+            <p className="descripcion">{producto.descripcion}</p>
             <p className="nombre-precio">${producto.precio}</p>
             {toggle ?
                 (
                 <> 
                  <div className="botones"> 
-                     <Link className="botonTerminar" to="/carrito"> Terminar compra </Link>                        
+                     <Link className="botonTerminar" to="/carrito"> Ver Carrito </Link>                        
                      <Link className="botonSeguirComprando" to="/"> Seguir comprando </Link>
                  </div>                  
                         

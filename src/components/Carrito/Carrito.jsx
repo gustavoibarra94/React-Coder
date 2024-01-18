@@ -28,7 +28,9 @@ const Carrito = ()=>{
                 ))} 
             </ul> 
             <h2>Total ${totalPrecio()}</h2>                  
-            <button className="botoncompra"> Finalizar Compra</button> 
+            <Link to="/checkout">
+                <button className="botoncompra">Finalizar Compra </button> 
+            </Link>
             <button className="botoncarrito" onClick={borrarCarrito}> Eliminar Carrito</button>
         </div>
 
