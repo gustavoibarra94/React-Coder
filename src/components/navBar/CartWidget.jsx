@@ -10,7 +10,7 @@ const CartWidget=()=>{
     const {carrito, totalCantidad}= useContext(CartContext)
     return(
          <Link to="/carrito" id="cartwidget">    
-            <img src="/public/img/Cart.png" alt="Carrito"/>
+            <div className="cart"> 🛒</div>
             { carrito.length !== 0 && <p>{totalCantidad()}</p>}         
          
          </Link>

@@ -1,8 +1,26 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ecomerce de Juegos.
 
-Currently, two official plugins are available:
+Este  proyecto es un ecomerce de juegos , el cuál te permite explorar los diferentes tipos de juegos entrando por categorías o clickeando sobre el mismo y viendo sus detalles. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Es un ecomerce con carrito de compras integrado y  checkout para que el usuario coloque sus datos y reciba la confirmación de su compra, los datos del usuario son almacenados en una base de datos. 
+
+
+## Instalación 
+
+Instalar mi proyecto con npm 
+
+```bash
+  npm install 
+  npm run dev
+```
+
+Dependencias
+
+```bash
+Firebase
+React router dom 
+sweatalert2
+
+```
+    

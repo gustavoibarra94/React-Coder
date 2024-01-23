@@ -10,16 +10,11 @@
     
 }
 
-
-#cartwidget img {
-
-    width: 2rem;
-    height: 2rem;
-    padding-right:0.5rem;
-    padding-left: 1rem;
+.cart{
+    font-size:xx-large;
     
-
 }
+
 
 #cartwidget p {
 

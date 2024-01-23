@@ -7,7 +7,10 @@ import {CartContext} from "../../context/cartContext"
 import {addDoc,collection} from "firebase/firestore"
 import db from "../../db/db"
 
+import Swal from "sweetalert2";
+
 import Form from "./Form"
+
 
 import './checkout.css'
 
@@ -41,7 +44,11 @@ const Checkout = ()=>{
                 subirOrden (orden);
         }
         else {
-            alert ("los mails ingresados no son iguales, por favor volver a intentar")
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "los emails ingresados no coinciden!",
+              });
         }
     
     };
