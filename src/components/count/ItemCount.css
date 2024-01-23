@@ -3,21 +3,27 @@
 .contador {
     display: flex;
     align-items: center;
-
-
+    
   }
 
   .contador button{
+    width: 100%;
     padding-right:5rem;
     padding-left:5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-size: large;
   }
+
+  .contador button:hover {
+    background-color:rgb(43, 84, 142) ;
+    color:#fff;
+  }
   
  .numeroDelContador {
+  
+    font-weight: bold;
     margin-left: 5rem;
     margin-right: 5rem;
-    font-weight: bold;
   }
   
   .botonSumarACarrito {

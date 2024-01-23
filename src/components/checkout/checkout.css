@@ -1,0 +1,30 @@
+.form p {
+    font-size: larger;
+  }
+   
+   .tarjetaDeOrden {
+      max-width:100%;
+      border: 1 px solid #ccc;
+      border-radius: 8px;
+      padding:16px;
+      margin:16px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      font-size:larger;
+      font-weight: bold;
+      color:rgb(43, 84, 142);
+    }
+
+    .botonCheck{
+      margin-top: 10rem;
+      width: 100%;
+      padding: 1rem;
+      border-radius: 8px;
+      font-size: larger;
+
+    }
+
+    .botonCheck:hover{
+      background-color: rgb(43, 84, 142);
+      color: #fff;
+    }
