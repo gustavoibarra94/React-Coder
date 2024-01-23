@@ -28,7 +28,7 @@ const ItemDetailContainer= (()=>{
         <div>
             { productoExiste ? (
                <div>
-                <div> upss! El producto que estás buscando no existe.  </div>
+                <div > upss! El producto que estás buscando no existe.  </div>
                <Link to="/"> volver al home</Link>
                </div>
                

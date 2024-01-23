@@ -47,7 +47,7 @@ const Checkout = ()=>{
             Swal.fire({
                 icon: "error",
                 title: "Oops...",
-                text: "los emails ingresados no coinciden!",
+                text: "Los emails ingresados no coinciden!, Por favor ingresalos nuevamente",
               });
         }
     

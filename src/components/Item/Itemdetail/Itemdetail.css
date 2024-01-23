@@ -42,6 +42,7 @@
     justify-content: flex-end;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color:rgb(43, 84, 142);
+    border-radius: 8px;
 
 
 }
@@ -60,5 +61,7 @@
   color: #fff;
   justify-content: flex-end;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 
 }
+
